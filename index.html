@@ -9,13 +9,13 @@
 
     <article>
 	  <header>
-		<h1>Spotting adversarial samples for speaker verification by neural vocoders</h1>
+		<h1>Push-Pull: Characterizing the Adversarial Robustness for Audio-Visual Active Speaker Detection.</h1>
 	  </header>
 	</article>
-    <div><b>Paper:</b> <a href="https://arxiv.org/abs/2107.00309">arXiv</a></div>
-	<div><b>Code:</b> <a href="https://github.com/hbwu-ntu/spot-adv-by-vocoder">GitHub</a></div>
-	<div><b>Authors:</b>Haibin Wu, Po-chun Hsu, Ji Gao, Shanshan Zhang, Shen Huang, Jian Kang, Zhiyong Wu, Helen Meng, Hung-yi Lee</div>
-	<div><b>Abstract:</b> Automatic speaker verification (ASV), one of the most important technology for biometric identification, has been widely adopted in security-critic applications, including transaction authentication and access control. However, previous works have shown ASV is seriously vulnerable to recently emerged adversarial attacks, yet effective countermeasures against them are limited. In this paper, we adopt neural vocoders to spot adversarial samples for ASV. We use neural vocoder to re-synthesize audio and find that the difference between the ASV scores for the original and re-synthesized audio is a good indicator to distinguish genuine and adversarial samples. As the very beginning work in this direction of detecting adversarial samples for ASV, there is no reliable baseline for comparison. So we first implement Griffin-Lim for detection and set it as our baseline. The proposed method accomplishes effective detection performance and outperforms all the baselines in all the settings. We also show the neural vocoder adopted in the detection framework is dataset independent.
+    <div><b>Paper:</b> <a href="">arXiv</a></div>
+<!-- 	<div><b>Code:</b> <a href="">GitHub</a></div> -->
+	<div><b>Authors:</b>Xuanjun Chen, Haibin Wu, Helen Meng, Hung-Yi Lee, and Jyh-Shing Roger Jang</div>
+	<div><b>Abstract:</b> Audio-visual active speaker detection (AVASD) is well-developed, and now is an indispensable front-end for several multi-modal applications. However, to the best of our knowledge, the adversarial robustness of AVASD models hasn't been investigated, not to mention the effective defense against such attacks. In this paper, we are the first to reveal the vulnerability of AVASD models under audio-only, visual-only, and audio-visual adversarial attacks through extensive experiments. What's more, we also propose a novel audio-visual interaction loss (AVIL) for making attackers difficult to find feasible adversarial examples under an allocated attack budget. The loss aims at pushing the inter-class embeddings to be dispersed, namely non-speech and speech clusters, sufficiently disentangled, and pulling the intra-class embeddings as close as possible to keep them compact. Experimental results show the AVIL outperforms the adversarial training by 33.14 mAP (%) under multi-modal attacks.
 	</div>
 
     <div><h2>Audio Samples</h2></div>
